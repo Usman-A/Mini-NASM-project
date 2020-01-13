@@ -1,4 +1,4 @@
-all: lecture_tamas lab4_tamas fproj_skel fproj method
+all: fproj method
 
 simple_io.o: simple_io.asm
 	nasm -felf64 -o simple_io.o simple_io.asm
